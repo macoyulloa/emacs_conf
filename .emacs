@@ -1,10 +1,3 @@
-Has the configuration of the emacs. To do that it is necessary to follow the steps:
-1. Go to the home
-2. Create a file: .emacs
-3. Open it and write
-4. Paste the follow into the file:
-""" 
-
 (setq c-default-style "bsd"
       c-basic-offset 8
       tab-width 8
@@ -77,5 +70,3 @@ Has the configuration of the emacs. To do that it is necessary to follow the ste
    ;; '("melpa" . "http://stable.melpa.org/packages/") ; many packages won't show if using stable
    '("melpa" . "http://melpa.milkbox.net/packages/")
    t))
-
-"""""
